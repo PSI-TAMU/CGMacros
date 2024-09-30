@@ -1,5 +1,6 @@
 Please use the Physionet link to access the dataset
 
+The dataset consists of teh following files:
 bio.csv contains anthropometric measurements of each individual, as well as measures of glucose, lipid, insulin derived from blood draw.
 
 microbes.csv contains information of the microbes present in the gut microbiome of each subject. The microbes are encoded as 0/1 where, 1 represents the microbe is 
