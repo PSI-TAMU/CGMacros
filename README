@@ -1,10 +1,13 @@
 Please use the Physionet link to access the dataset
 
-The dataset consists of teh following files:
+The dataset is divided into separate folders for each participant. Each folder contains the glucose response from two devices, activity, heart rate information from a FitBit for each timestamp as well as macros and the associated meal photos.
+
+The dataset also contains the following supplementary files:
 bio.csv contains anthropometric measurements of each individual, as well as measures of glucose, lipid, insulin derived from blood draw.
 
 microbes.csv contains information of the microbes present in the gut microbiome of each subject. The microbes are encoded as 0/1 where, 1 represents the microbe is 
 present while 0 means the microbe is not present in that subject.
 
-gut health test.csv contains 22 measures of the gut health status reported by Viome. Each feature is represented as 0/1/2 where 0 represents not optimal, 1 represents
-average, and 2 represents good.
+gut health test.csv contains 22 measures of the gut health status reported by Viome. Each feature is represented as 0/1/2 where 0 represents not optimal, 1 represents average, and 2 represents good.
+
+parse_data.ipnb contains code to predict iAUC and AUC using anthropometric variables, macronutrients, measures of glucose, lipids, insulin and their associated SHAP plots
