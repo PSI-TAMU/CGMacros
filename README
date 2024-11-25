@@ -1,3 +1,13 @@
+# CGMacros: a scientific dataset for personalized nutrition and diet monitoring
+
+## Overview 
+---
+This dataset is primarily designed for predicting meal macronutrients from wearable sensors. It contains continuous glucose monitors (CGM) data for 45 participants (15 healthy,
+16 pre-diabetes, 14 T2D) who consumed meals with varying and known macronutrient compositions in a free-living setting for
+ten consecutive days. It also contains multimodal information from an activity tracker, two, food
+macronutrients, and food photographs, as well as anonymized participant demographics, anthropometric measurements and
+health parameters from blood analyses and gut microbiome profiles. 
+
 Please use the Physionet link to access the dataset
 
 The dataset is divided into separate folders for each participant. Each folder contains the glucose response from two devices, activity, heart rate information from a FitBit for each timestamp as well as macros and the associated meal photos.
