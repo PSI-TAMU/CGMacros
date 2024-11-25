@@ -15,7 +15,7 @@ pip install -r requirements.txt
 ```
 
 ## Download
-The dataset is under review in Physionet. we will update this link once the dataset is available.
+The dataset is under review in Physionet. We will update this link once the dataset has been reviewed.
 
 ## Folder structure
 The dataset is divided into separate folders for each participant (CGMacros-#). Each folder contains a CGMacros-#.csv file which contains the glucose response from two devices, activity, heart rate information from a FitBit for each timestamp as well as macros and the associated meal photos.
